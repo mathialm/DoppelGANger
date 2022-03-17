@@ -1,1 +1,12 @@
 .DS_Store
+results/*
+*.log
+*/__pycache__/*
+.idea
+*.png
+*.npz
+*/test/*
+*.pk1
+data/web/data_attribute_output.pkl
+data/web/data_feature_output.pkl
+example_training/temp/*
