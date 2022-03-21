@@ -5,7 +5,7 @@ sys.path.append("..")
 sys.path.append("")
 print(sys.path)
 
-print("Python version " + str(sys.version))
+print("Task Python version " + str(sys.version))
 
 import os
 import tensorflow as tf
