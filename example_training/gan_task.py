@@ -1,19 +1,20 @@
 from gpu_task_scheduler.gpu_task import GPUTask
 
+import os
+import tensorflow as tf
+from gan.load_data import load_data
+from gan.network import DoppelGANgerGenerator, Discriminator, \
+    RNNInitialStateType, AttrDiscriminator
+from gan.doppelganger import DoppelGANger
+from gan import output
+from gan.util import add_gen_flag, normalize_per_sample
 
 class GANTask(GPUTask):
     def main(self):
         import sys
         sys.path.append("..")
 
-        import os
-        import tensorflow as tf
-        from gan.load_data import load_data
-        from gan.network import DoppelGANgerGenerator, Discriminator, \
-            RNNInitialStateType, AttrDiscriminator
-        from gan.doppelganger import DoppelGANger
-        from gan import output
-        from gan.util import add_gen_flag, normalize_per_sample
+
 
         sys.modules["output"] = output
 
