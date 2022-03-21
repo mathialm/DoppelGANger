@@ -2,7 +2,7 @@ config = {
     "scheduler_config": {
         "gpu": ["0"],
         "config_string_value_maxlen": 1000,
-        "result_root_folder": "../results/"
+        "result_root_folder": "./doppelGANger_results/"
     },
 
     "global_config": {
