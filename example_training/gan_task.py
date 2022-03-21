@@ -1,5 +1,8 @@
 from gpu_task_scheduler.gpu_task import GPUTask
 
+import sys
+sys.path.append("..")
+
 import os
 import tensorflow as tf
 from gan.load_data import load_data
@@ -11,8 +14,7 @@ from gan.util import add_gen_flag, normalize_per_sample
 
 class GANTask(GPUTask):
     def main(self):
-        import sys
-        sys.path.append("..")
+
 
 
 
