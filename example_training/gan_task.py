@@ -2,6 +2,7 @@ from gpu_task_scheduler.gpu_task import GPUTask
 
 import sys
 sys.path.append("..")
+sys.path.append("")
 print(sys.path)
 
 import os
