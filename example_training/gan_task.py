@@ -5,6 +5,8 @@ sys.path.append("..")
 sys.path.append("")
 print(sys.path)
 
+print("Python version " + str(sys.version))
+
 import os
 import tensorflow as tf
 from gan.load_data import load_data
