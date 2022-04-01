@@ -45,7 +45,7 @@ config = {
         #},
         {
             "dataset": ["web"],
-            "epoch": [400],
+            "epoch": [200],
             "run": [0, 1, 2],
             "sample_len": [1, 5, 10, 25, 50],
             "extra_checkpoint_freq": [5],
