@@ -1,6 +1,6 @@
 config = {
     "scheduler_config": {
-        "gpu": ["0", "1", "2", "3"],
+        "gpu": ["0", "1", "2", "3", "4"],
         "config_string_value_maxlen": 1000,
         "result_root_folder": "./doppelGANger_results/"
     },
