@@ -5,6 +5,7 @@ class GANGenerateDataTask(GPUTask):
     def main(self):
         import sys
         sys.path.append("..")
+        sys.path.append("")
 
         import os
         import tensorflow as tf
