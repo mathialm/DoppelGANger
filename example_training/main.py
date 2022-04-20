@@ -9,5 +9,5 @@ if __name__ == "__main__":
 	print("Can see tensorflow version "  + str(tf.__version__))
 	print("Started working")
 	scheduler = GPUTaskScheduler(config=config, gpu_task_class=GANTask)
-	print("Has set up GPUTaskScheduler")
+	print("Training has set up GPUTaskScheduler")
 	scheduler.start()

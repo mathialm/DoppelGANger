@@ -1,12 +1,6 @@
 from gpu_task_scheduler.gpu_task import GPUTask
 
 import sys
-sys.path.append("..")
-sys.path.append("")
-print(sys.path)
-
-print("Task Python version " + str(sys.version))
-
 import os
 import tensorflow as tf
 from gan.load_data import load_data
@@ -16,11 +10,11 @@ from gan.doppelganger import DoppelGANger
 import gan.output as output
 from gan.util import add_gen_flag, normalize_per_sample
 
+sys.path.append("..")
+sys.path.append("")
+
 class GANTask(GPUTask):
     def main(self):
-
-
-
 
         sys.modules["output"] = output
 
