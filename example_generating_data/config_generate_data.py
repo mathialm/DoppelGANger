@@ -1,6 +1,6 @@
 config = {
     "scheduler_config": {
-        "gpu": ["0", "1", "2"],
+        "gpu": ["0"],
         "config_string_value_maxlen": 1000,
         "result_root_folder": "../generating_results/",
         "scheduler_log_file_path": "scheduler_generate_data.log",
@@ -52,7 +52,7 @@ config = {
         {
             "dataset": ["web"],
             "epoch": [200],
-            "run": [0, 1, 2],
+            "run": [0],
             "sample_len": [5],
             "extra_checkpoint_freq": [5],
             "epoch_checkpoint_freq": [1],
