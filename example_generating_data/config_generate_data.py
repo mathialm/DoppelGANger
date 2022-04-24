@@ -9,7 +9,7 @@ config = {
     },
 
     "global_config": {
-        "batch_size": 100,
+        "batch_size": 1000,
         "vis_freq": 200,
         "vis_num_sample": 5,
         "d_rounds": 1,
